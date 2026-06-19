@@ -6,7 +6,7 @@
 // ============ PHOTO LIST ============
 // Filenames the page expects in /images/. Drop your 32 real .jpg files
 // in with these exact names and they'll appear automatically.
-const PHOTO_COUNT = 32;
+const PHOTO_COUNT = 37;
 const PHOTO_PATHS = Array.from({ length: PHOTO_COUNT }, (_, i) => `images/photo${i + 1}.jpg`);
 
 // Checks if an image actually loads (vs. an empty placeholder file / 404)
